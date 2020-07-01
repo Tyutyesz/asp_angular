@@ -1,0 +1,15 @@
+@import 'reset';
+@import 'fonts';
+@import 'typography';
+
+body{
+  font-family:'Source Sans Pro', sans-serif;;
+  background-color: $bg-color;
+  color:$text-color;
+}
+a{
+  color:$link-color;
+  &:hover{
+    color:$link-hover-color;
+  }
+}
